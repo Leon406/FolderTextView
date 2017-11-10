@@ -7,30 +7,29 @@ A widget Inspired by http://blog.csdn.net/tanxuewe/article/details/50793630
 
 ## 快速使用 Quick Start
 
-1. **build.gradle 加入 dependencies**
-
+**build.gradle 加入 dependencies**
 
       implementation 'me.leon406:foldertextview:1.0.1@aar'//AS3.0+ 建议
       compile 'me.leon406:foldertextview:1.0.1@aar'       //AS3.0以下
-2. **xml layout**
-
-      <me.leon.foldertextview.FolderTextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            app:fold_line="4"
-            android:text="@string/text1"
-            app:fold_text="   hide"
-            app:fold_text_color="#0f0"
-            app:unfold_text=" show"
-            app:unfold_text_color="#f0f" />
-
-3. **使用方法**
+**xml layout**
 
 ```
-((FolderTextView) findViewById(R.id.tv2)).setText(text); //与TextView一致
+ <me.leon.foldertextview.FolderTextView android:layout_width="wrap_content"
+  android:layout_height="wrap_content"
+  app:fold_line="4"
+  android:text="@string/text1"
+  app:fold_text="  hide"
+  app:fold_text_color="#0f0"
+  app:unfold_text=" show"
+  app:unfold_text_color="#f0f" />
+```
+**使用方法**
+
+```
+((FolderTextView) findViewById(R.id.tv2)).setText(text); //与TextView一致 
 ```
 
-### 
+
 
 ## 相关属性
 
