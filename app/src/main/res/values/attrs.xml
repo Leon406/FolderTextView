@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="FolderTextView">
+        <attr name="fold_line" format="integer" />
+        <attr name="noFold"  format="boolean"/>
+        <attr name="fold_text"  format="string"/>
+        <attr name="unfold_text"  format="string"/>
+        <attr name="fold_text_color"  format="color"/>
+        <attr name="unfold_text_color"  format="color"/>
+    </declare-styleable>
+</resources>
